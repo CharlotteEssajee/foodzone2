@@ -776,6 +776,22 @@ button:hover {
   margin-bottom: 20px;
 }
 
+.messageSuccess {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.messageSuccess i {
+  font-size: 10em;
+  color: rgb(104, 148, 104);
+}
+
+.success {
+  font-size: 2em;
+  margin: 10px 0 20px 0;
+}
+
 @media screen and (max-width: 650px) {
   .contact {
     max-width: 300px;

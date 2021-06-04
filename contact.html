@@ -3,48 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="description"
-      content="Foodzone. | Contact us | Work with us | Enjoy cooking from scratch? Contact us to get a guest blog post on our site | Tlf: +47 932 74 274"
-    />
+    <meta name="description" content="Foodzone. | Contact us | Work with us | Enjoy cooking from scratch? Contact us to get a guest blog post on our site | Tlf: +47 932 74 274"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Foodzone | Contact</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
-      rel="stylesheet"
-    />
+    <script src="https://kit.fontawesome.com/b54b0f2f33.js" crossorigin="anonymous"></script>
   </head>
-  <header>
-    <!--Navbar-->
-    <nav class="navbar">
-      <div class="logo">
-        <a href="index.html"
-          ><img src="images/foodzone.logo.png" alt="foodzoneLogo"
-        /></a>
-      </div>
-      <a href="#" class="toggleButton">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-      </a>
-      <div class="navbarLinks">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="listOfBlogPosts.html">Our Recipes</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
-  </header>
   <body>
+    <header>
+      <!--Navbar-->
+      <nav class="navbar">
+        <div class="logo">
+          <a href="index.html"><img src="images/foodzone.logo.png" alt="foodzoneLogo"/></a>
+        </div>
+        <a href="#" class="toggleButton">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbarLinks">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="listOfBlogPosts.html">Our Recipes</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
     <!--Contact Form-->
-    <h1 class="contactHeader">Contact</h1>
-    <p class="contactSubhead">Please email us using the contact form below</p>
     <main class="contact">
-      <form id="contactForm">
+      <h1 class="contactHeader">Contact</h1>
+      <p class="contactSubhead">Please email us using the contact form below</p>
+      <form id="contactForm" action="/" method="GET">
         <div class="formSection">
           <label>
             Name
@@ -83,18 +76,13 @@
           </div>
         </div>
 
-        <button>Submit</button>
+        <button type="submit">Submit</button>
       </form>
     </main>
     <!--Footer-->
     <footer>
       <div class="footerLogo">
-        <a href="index.html"
-          ><img
-            src="images/foodzone.logo.png"
-            alt="foodzoneLogo"
-            class="foodzoneLogoFooter"
-        /></a>
+        <a href="index.html"><img src="images/foodzone.logo.png" alt="foodzoneLogo" class="foodzoneLogoFooter"/></a>
       </div>
       <div class="soMe">
         <img src="images/facebookIcon.png" alt="facebook" />
