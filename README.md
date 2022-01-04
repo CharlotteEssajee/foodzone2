@@ -1,4 +1,4 @@
-## foodzone
+## FOODZONE
 Visit site: https://foodz0ne2.netlify.app/
 
 ## Goal
