@@ -48,7 +48,7 @@ You will need to add at least 12 blogs for your website. You can use lorem ipsum
 
 Note that this is an exam, and therefore tutor support will be limited as per the study plan.
 
-## Level 1 Process
+## Process
 
 1.	Decide on the theme for the blog you’re going to make
 2.	Create a prototype of the website
@@ -59,10 +59,5 @@ Note that this is an exam, and therefore tutor support will be limited as per th
 7.	Ask users to test your website, and adjust based on their feedback and any insights from Hotjar.
 8.	Write a report documenting your project (template provided in this repository).
 9.	Submit your report as a PDF and a link to both your Netlify deployment and your GitHub repo.
- 
-## Level 2 Process (optional)
 
-1.	You can try adding a sort, filter, or search to the blog posts page allowing users to find the blog post more easily that they’re looking for. 
-2.	Post the data from the contact form to WordPress so you have the details saved.
-3.	Allow users to submit comments on a blog post, and post this data to WordPress
 
